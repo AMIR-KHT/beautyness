@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "Badoga";
+    src: url(../Fonts/Badoga\ 400.otf);
+}
+@font-face {
+    font-family: "playfair";
+    src: url(../Fonts/PlayfairDisplay-Black.otf);
+}
+@font-face {
+    font-family: "poppins";
+    src: url(../Fonts/Poppins-Regular.ttf);
+}
+body{
+    font-family: "badoga";
+}
+
+#header{
+    width: 100%;
+    height: 750px;
+
+    background-size: contain;
+    background-position: center;
+    background-image: radial-gradient(circle at top right, #bca3842d,black 40%),radial-gradient(circle at bottom left,#7a9ca548 0%,black 40%),url(../Icons/HeaderIcons/Home\ page\ Pattern.png);
+    background-blend-mode: screen;
+
+}
+
+#h-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+
+#h-logo{
+    width: 191px;
+    height: 45px;
+
+    font-family: 'playfair';
+    color: white;
+    font-size: 28px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h-menu{
+    width: 500px;
+    height: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-items{
+    font-family: "Badoga";
+    font-size: 18px;
+    height: 30px;
+    color: #FDFDFD;
+    transition: 50ms;
+    
+}
+.menu-items:hover{
+    border-radius: 50%;
+    border-bottom: 1px solid #BCA384;
+}
+
+#signup{
+    width: 100px;
+    height: 35px;
+    color: #BCA384;
+    border: 1px solid #BCA384;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 40px;
+}
+
+#h-bottom{
+    height: 88%;
+    background-image: url(../Icons/HeaderIcons/Mask\ group.png),url(../Icons/HeaderIcons/Ellipse\ 1795.png),url(../Icons/HeaderIcons/star.png);
+    background-repeat: no-repeat;
+    background-size: 550px 550px,400px 400px,80px 80px;
+    background-position: 75% 65%,73% 60%,68% 16%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#h-bottom-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 70px;
+    padding-top: 105px;
+}
+
+#h-bottom-right{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 120px;
+}
+
+.h-bottom-right-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+#h-1st-txt{
+    font-size: 99px;
+    color: #BCA384;
+    position: relative;
+    width: 750px;
+}
+#h-2nd-txt{
+    font-size: 45px;
+    color: #FDFDFD;
+    position: relative;
+    width: 700px;
+}
+#h-3rd-txt{
+    font-size: 20px;
+    font-family: none; 
+    color: #FDFDFD;width: 450PX; 
+    position: relative;
+    padding-top: 10px;
+}
+
+#home{
+    width: 70px;
+}
+#aboutus{
+    width: 90px;
+}
+#ourartists{
+    width: 100px;
+}
+#blog{
+    width: 50px;
+}
+#serv{
+    width: 90px;
+}
+#gal{
+    width: 70px;
+}
+
+@media screen and (max-width: 960px) {
+    #h-1st-txt{
+        font-size: 40px;
+        width: 400px;
+    }
+    #h-2nd-txt{
+        font-size: 20px;
+        width: 400px;
+        padding-top: 20px;
+    }
+    #h-3rd-txt{
+        font-size: 10px;
+        padding-top: 20px;
+        width: 200px;
+    }
+    #h-bottom{
+        background-size: 350px 350px,250px 250px,40px 40px;
+        background-position: 75% 20%,73% 30%,68% 13%;
+        flex-direction: column;
+    }
+    #h-bottom-right{
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    #h-logo{
+        font-size: 15px;
+        width: 115px;
+    }
+    .menu-items{
+        font-size: 10px;
+        height: 25px;
+    }
+    #signup{
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+
+    #home{
+        width: 50px;
+    }
+    #aboutus{
+        width: 60px;
+    }
+    #ourartists{
+        width: 70px;
+    }
+    #blog{
+        width: 40px;
+    }
+    #serv{
+        width: 60px;
+    }
+    #gal{
+        width: 50px;
+    }
+}
